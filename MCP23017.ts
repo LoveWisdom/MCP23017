@@ -7,7 +7,9 @@
 
 /**
  * 自定义图形块
+ * 
  */
+
 enum REGISTER {
     IODIRA = 0x00,
     IODIRB = 0x01,
@@ -36,7 +38,7 @@ enum PIN {
     A = 0,
     B = 1
 }
-//% weight=5 color=#9900CC icon="\uf53b"
+//% weight=5 color=#9900CC icon="\f26e"
 namespace 库壳教育 {
     const MCP23017_ADDRESS = 0x20
     const MCP23017_IODIRA = 0x00
