@@ -1,7 +1,7 @@
 {
-    "name": "cookedu",
+    "name": "库壳教育",
     "version": "0.0.0",
-    "description": "wisdom",
+    "description": "库壳智造",
     "dependencies": {
         "core": "*",
         "radio": "*"
