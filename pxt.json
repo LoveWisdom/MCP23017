@@ -1,7 +1,7 @@
 {
-    "name": "库壳教育扩展包",
+    "name": "cookedu",
     "version": "0.0.0",
-    "description": "库壳教育自主研发",
+    "description": "wisdom",
     "dependencies": {
         "core": "*",
         "radio": "*"
