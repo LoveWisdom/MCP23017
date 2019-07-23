@@ -1,7 +1,7 @@
 {
-    "name": "MCP23017",
+    "name": "库壳教育扩展包",
     "version": "0.0.0",
-    "description": "MCP23017 16Pin IO Expansion Board drive for Microbit",
+    "description": "库壳教育自主研发",
     "dependencies": {
         "core": "*",
         "radio": "*"
