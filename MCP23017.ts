@@ -37,7 +37,7 @@ enum PIN {
     A = 0,
     B = 1
 }
-//% weight=5 color=#9900CC icon="\uf26e"
+//% weight=5 color=#0000FF icon="\uf26e"
 namespace 库壳教育 {
     const MCP23017_ADDRESS = 0x20
     const MCP23017_IODIRA = 0x00
