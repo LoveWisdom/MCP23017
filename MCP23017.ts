@@ -100,7 +100,7 @@ namespace 库壳教育 {
      *Read data from the register
      * @param reg [0-21] register of mcp23017; eg: 0, 15, 23
     */
-    //% blockId=ReadReg block="Read register |%reg| data"
+    //% blockId=ReadReg block="读取引脚 |%reg| 数据"
     //% weight=65
     export function ReadReg(reg: REGISTER): number {
         let val = i2cread(MCP23017_ADDRESS, reg);
@@ -113,7 +113,7 @@ namespace 库壳教育 {
      * @param pin [0-1] choose PinA or PinB; eg: 0, 1
      * @param value [0-255] pulse of servo; eg: 128, 0, 255
     */
-    //% blockId=WritePin block="Set P |%pin| value |%value|"
+    //% blockId=WritePin block="引脚 P |%pin| 输出值 |%value|"
     //% weight=75
     //% value.min=0 value.max=255
     export function WritePin(pin: PIN, value: number): void {
@@ -132,7 +132,7 @@ namespace 库壳教育 {
      *ReadData From PinA or PinB
      * @param pin [0-1] choose PinA or PinB; eg: 0, 1
     */
-    //% blockId=ReadPin block="Read data from |%pin|"
+    //% blockId=ReadPin block="读取引脚数据 |%pin|"
     //% weight=85
     export function ReadPin(pin: PIN): number {
         if (!initialized) {
